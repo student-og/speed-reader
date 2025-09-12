@@ -1,4 +1,21 @@
-#introduction
-To kick things off, simply copy the text you want to read and paste it into this box. This tool will help you speed up your reading by showing you words one after another, a technique known as Rapid Serial Visual Presentation. Plus, you can set your preferred reading speed, measured in words per minute. Feel free to select the number of words you want to see at once (that's the chunk size), adjust the text size, and explore other options too. Just hit the 'Read' button when you're ready to dive in. Feel free to bookmark MY SPEED READER in your browser for easy access.
-#instructions
-Save these three files (index.html, style.css, script.js) in the same folder, and open index.html in your web browser. 
+# My Speed Reader
+
+My Speed Reader is a web-based tool designed to enhance your reading speed using the Rapid Serial Visual Presentation (RSVP) technique. This tool displays words one after another, allowing you to read faster and more efficiently.
+
+## Features
+
+- **Rapid Serial Visual Presentation**: Read words quickly, one at a time.
+- **Customizable Speed**: Set your preferred reading speed in words per minute (WPM).
+- **Chunk Size Adjustment**: Choose how many words to display at once.
+- **Text Size Options**: Adjust the text size for better readability.
+- **User-Friendly Interface**: Simple and intuitive design for easy use.
+
+## Getting Started
+
+To get started with My Speed Reader, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd my-speed-reader
+   index.html
