@@ -16,6 +16,6 @@ To get started with My Speed Reader, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/student-og/speed-reader/
    cd my-speed-reader
    index.html
