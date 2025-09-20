@@ -17,9 +17,33 @@
     </div>
 
     <textarea id="text-input" placeholder="Paste your text here..."></textarea>
-    <button id="start-stop-btn">Start</button>
+    
+    <div class="button-controls">
+        <button id="rewind-btn" title="Go back one chunk">⏮</button>
+        <button id="start-stop-btn">Start</button>
+        <button id="forward-btn" title="Go forward one chunk">⏭</button>
+    </div>
 
     <div id="display-window"></div>
+    
+    <div id="stats-panel">
+        <div class="stat-item">
+            <span class="stat-label">Position:</span>
+            <span id="position-stat">0 / 0</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Words:</span>
+            <span id="words-stat">0</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Time:</span>
+            <span id="time-stat">00:00</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Remaining:</span>
+            <span id="remaining-stat">--:--</span>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
