@@ -30,6 +30,19 @@ h1 {
     display: flex;
     gap: 18px;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.controls label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    color: #2d3a4a;
+}
+
+.controls input[type="checkbox"] {
+    margin-right: 4px;
 }
 
 
@@ -108,4 +121,70 @@ button:hover, button:focus {
     border-style: dashed;
     color: #bfc9d1;
     background: #f8fafc;
+}
+
+.stats-panel {
+    width: 90%;
+    max-width: 700px;
+    margin-top: 20px;
+    padding: 16px 24px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.07);
+}
+
+.stats-panel h3 {
+    margin: 0 0 12px 0;
+    color: #2d3a4a;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background: #f8fafc;
+    border-radius: 6px;
+    border: 1px solid #e1e8ed;
+}
+
+.stat-label {
+    font-weight: 500;
+    color: #2d3a4a;
+}
+
+.stat-item span:last-child {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.keyboard-shortcuts {
+    width: 90%;
+    max-width: 700px;
+    margin-top: 16px;
+    padding: 12px 20px;
+    background: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #e1e8ed;
+    text-align: center;
+}
+
+.keyboard-shortcuts h4 {
+    margin: 0 0 8px 0;
+    color: #2d3a4a;
+    font-size: 1rem;
+}
+
+.keyboard-shortcuts p {
+    margin: 0;
+    color: #5a6c7d;
+    font-size: 0.9rem;
 }

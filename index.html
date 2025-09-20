@@ -14,12 +14,43 @@
 
         <label for="chunkSize">Words per flash:</label>
         <input type="number" id="chunkSize" value="1" min="1">
+        
+        <label for="comprehension-break">
+            <input type="checkbox" id="comprehension-break"> Comprehension breaks
+        </label>
     </div>
 
     <textarea id="text-input" placeholder="Paste your text here..."></textarea>
     <button id="start-stop-btn">Start</button>
 
     <div id="display-window"></div>
+
+    <div id="stats-panel" class="stats-panel">
+        <h3>Reading Statistics</h3>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-label">Words Read:</span>
+                <span id="words-read">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Time:</span>
+                <span id="time-elapsed">0:00</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Actual WPM:</span>
+                <span id="actual-wpm">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Target WPM:</span>
+                <span id="target-wpm">300</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="keyboard-shortcuts">
+        <h4>Keyboard Shortcuts</h4>
+        <p><strong>Space:</strong> Start/Pause/Resume &nbsp; <strong>Esc:</strong> Stop Reading</p>
+    </div>
 
     <script src="script.js"></script>
 </body>
